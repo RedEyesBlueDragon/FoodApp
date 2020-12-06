@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_0">Restaurants</string>
+    <string name="menu_1">Meals</string>
+    <string name="menu_2">Salads</string>
+    <string name="menu_3">Desserts</string>
+    <string name="menu_4">Drinks</string>
+    <string name="about">About</string>
+    <string name="donut">Donut</string>
+
+    <string name="donut_scrol">A doughnut or donut (the latter spelling often seen in American English) is a type of fried dough confection or dessert food. The doughnut is popular in many countries and is prepared in various forms as a sweet snack that can be homemade or purchased in bakeries, supermarkets, food stalls, and franchised specialty vendors. Doughnuts are usually deep fried from a flour dough, and typically either ring-shaped or a number of shapes without a hole, and often filled, but can also be ball-shaped ("doughnut holes"). Other types of batters can also be used, and various toppings and flavorings are used for different types, such as sugar, chocolate, or maple glazing. Doughnuts may also include water, leavening, eggs, milk, sugar, oil, shortening, and natural or artificial flavors. The two most common types are the ring doughnut and the filled doughnut, which is injected with fruit preserves, cream, custard, or other sweet fillings. Alternatively, small pieces of dough are sometimes cooked as doughnut holes. Once fried, doughnuts may be glazed with a sugar icing, spread with icing or chocolate on top, or topped with powdered sugar, cinnamon, sprinkles or fruit. Other shapes include rings, balls, flattened spheres, twists, and other forms. Doughnut varieties are also divided into cake (including the old-fashioned) and yeast-risen type doughnuts. Doughnuts are often accompanied by coffee purchased at doughnut shops, convenience stores, petrol stations, cafes or fast food restaurants, but can also be paired with milk.  </string>
+    <string name="ice_cream_scrol">Ice cream is a mixture of milk, cream, sugar, and sometimes other ingredients, that has been frozen into a soft, creamy delight using special techniques. Ice cream has been a popular treat for hundreds of years but only become commonplace since the widespread use of refrigeration. The exploding popularity of ice cream has led to a number of ice cream variations including frozen custard, frozen yogurt, and even non-dairy versions made with ingredients like coconut milk. In the United States, ice cream must contain 10-16% milk fat. Higher milk fat ice creams generally have a smoother texture because they contain a lower amount of water and therefore fewer ice crystals. Ice creams that contain less than 10% milk fat are referred to as "ice milk" or more popularly, "low fat" ice cream. In addition to milk or cream, ice cream often contains stabilizers, like gluten, to help keep the mixture a consistent texture. Sugar or sugar substitutes are usually added to provide the sweet flavor that most people expect. No sugar added varieties of ice cream have become popular and rely on the addition of fruit and the natural milk sugars for their subtle sweetness. The variety of flavors and additives in ice cream has kept its popularity strong with consumers. From exotic fruits like mango and pomegranate to unconventional flavors like coffee or basil, thousands of ice cream flavors, both savory and sweet, have been created over the years.</string>
+    <string name="froyo_scrol">Frozen yogurt is a frozen dessert made with yogurt and sometimes other dairy and non-dairy products.[1] Frozen yogurt is a frozen product containing the same basic ingredients as ice cream, but contains live bacterial cultures. Usually more tart than ice cream, as well as lower in fat (due to the use of milk instead of cream), it is different from ice milk and conventional soft serve.[3] Unlike yogurt, frozen yogurt is not regulated by the U.S. Food and Drug Administration (FDA),[4] but is regulated by some U.S. states, such as California. </string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">User Information</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your Name</string>
+    <string name="address_title">Default Address Selection</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Synchronize email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="notify_header">Notification</string>
+    <string name="notify_title">Open notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="food_text1">Ingredients: Lamb, garlic, cumin, pepper</string>
+    <string name="food_title1">Kebab</string>
+    <string name="food_text2">Ingredients: Pasta, meat, tomatoes, mint</string>
+    <string name="food_title2">Pasta</string>
+    <string name="food_text3">Ingredients: Meat, tomatoes, cream cheese, mozzarella, parmesan</string>
+    <string name="food_title3">Lasagna</string>
+    <string name="food_text4">Ingredients: Chicken, carrot, paprika, garlic, vinegar</string>
+    <string name="food_title4">Chicken</string>
+
+    <string name="Salad_food_text1">Ingredients: Lettuce, olive oil, egg, lemon juice</string>
+    <string name="Salad_food_title1">Caesar Salad</string>
+    <string name="Salad_food_text2">Ingredients: Tuna, red onion, celery, garlic, lemon, black pepper</string>
+    <string name="Salad_food_title2">Tuna Salad</string>
+    <string name="Salad_food_text3">Ingredients: Chicken, mayonnaise, celery, mustard, onion, pepper</string>
+    <string name="Salad_food_title3">Chicken Salad</string>
+
+    <string name="Drinks_food_text1">Ingredients: Lemon, mint, water </string>
+    <string name="Drinks_food_title1">Lemonade</string>
+    <string name="Drinks_food_text2">Ingredients: Yogurt, water, salt</string>
+    <string name="Drinks_food_title2">Ayran</string>
+    <string name="Drinks_food_text3">Ingredients: Natural mineral water</string>
+    <string name="Drinks_food_title3">Mineral Water</string>
+
+    <string name="Dessert_food_text1">Ingredients: Cream cheese, sour cream, egg, butter, sugar, berry, cracker crumbs</string>
+    <string name="Dessert_food_title1">Cheesecake</string>
+    <string name="Dessert_food_text2">Ingredients: Chocolate, milk, butter, flour, sugar, egg</string>
+    <string name="Dessert_food_title2">Profiterole </string>
+    <string name="Dessert_food_text3">Ingredients: Pistachio, sugar, flour, butter</string>
+    <string name="Dessert_food_title3">Baklava</string>
+    <string name="Dessert_food_text4">Ingredients: Mascarpone cheese, espresso coffee, vanilla,egg, sugar</string>
+    <string name="Dessert_food_title4">Tiramisu</string>
+    <string name="Dessert_food_text5">Ingredients: Milk, butter, sugar, rice flour, corn starch, vanilla</string>
+    <string name="Dessert_food_title5">Kazandibi</string>
+
+
+    <string name="kebab">Kebab</string>
+    <string name="sentence">\ Ordered</string>
+    <string name="pasta">Pasta</string>
+    <string name="lasagna">Lasagna</string>
+    <string name="chicken">Chicken</string>
+
+    <string name="clear">Clear</string>
+
+    <string name="dessert_tiramisu">Tiramisu</string>
+    <string name="dessert_baklava">Baklava</string>
+    <string name="dessert_prof">Profiterole</string>
+    <string name="dessert_cheesecake">Cheesecake</string>
+    <string name="dessert_kazandibi">Kazandibi</string>
+
+    <string name="drink_ayran">Ayran</string>
+    <string name="drink_lemonade">Lemonade</string>
+    <string name="drink_mineral_water">Mineral Water</string>
+
+    <string name="salad_caesar">Caesar Salad</string>
+    <string name="salad_chicken">Chicken Salad</string>
+    <string name="salad_tuna">Tuna Salad</string>
+
+
+    <string name="meals_kebab_price">24</string>
+    <string name="meals_pasta_price">14</string>
+    <string name="meals_lasagna_price">18</string>
+    <string name="meals_chicken_price">20</string>
+
+    <string name="dessert_cheesecake_price">14</string>
+    <string name="dessert_tiramisu_price">14</string>
+    <string name="dessert_prof_price">12</string>
+    <string name="dessert_baklava_price">20</string>
+    <string name="dessert_kazandibi_price">8</string>
+
+    <string name="drink_lemonade_price">6</string>
+    <string name="drink_ayran_price">4</string>
+    <string name="drink_minwater_price">2</string>
+    <string name="salad_caesar_price">14</string>
+    <string name="salad_tuna_price">14</string>
+    <string name="salad_chicken_price">14</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+
+    <string name="circle">
+M527.023,71.8233 C780.213,71.8233,985.464,277.075,985.464,530.265
+C985.464,783.455,780.213,988.707,527.023,988.707
+C273.832,988.707,68.5809,783.455,68.5809,530.265
+C68.5809,277.075,273.832,71.8233,527.023,71.8233 Z
+</string>
+    <string name="log_out">Log Out</string>
+    <string name="adres_title">Address</string>
+    <integer name="circle_original_width">1062</integer>
+    <integer name="circle_original_height">1062</integer>
+
+
+</resources>

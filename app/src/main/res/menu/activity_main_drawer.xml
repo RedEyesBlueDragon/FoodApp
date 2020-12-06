@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        tools:ignore="ExtraText">
+
+
+        <item
+            android:id="@+id/mealFragment"
+            android:icon="@mipmap/ic_meals_foreground"
+            android:title="@string/menu_1" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_salad_foreground"
+            android:title="@string/menu_2" />
+        <item
+            android:id="@+id/desertFragment"
+            android:icon="@mipmap/ic_dessert_foreground"
+            android:title="@string/menu_3" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/ic_drink_foreground"
+            android:title="@string/menu_4"/>
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Drinks_Card1"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="79dp"
+                android:layout_marginRight="90dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="16dp">
+
+                <RelativeLayout
+                    android:id="@id/Drinks_imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Drinks_imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lemon" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="@string/drink_lemonade_price"
+                        android:textSize="18sp"
+                        android:layout_marginRight="14dp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="$"
+                        android:layout_marginRight="2dp"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/Drinks_Food_title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="112dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/Drinks_food_title1"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Drinks_Food1_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/Drinks_Food_title1"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/Drinks_food_text1" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Drinks_Card2"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/Drinks_Card1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="79dp"
+                android:layout_marginRight="90dp"
+                android:elevation="16dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="16dp">
+
+                <RelativeLayout
+                    android:id="@id/Drinks_imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Drinks_imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ayran" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="@string/drink_ayran_price"
+                        android:textSize="18sp"
+                        android:layout_marginRight="14dp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="$"
+                        android:layout_marginRight="2dp"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/Drinks_Food_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="112dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/Drinks_food_title2"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Drinks_Food_text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/Drinks_Food_title2"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/Drinks_food_text2" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Drinks_Card3"
+                android:layout_width="500dp"
+                android:layout_height="150dp"
+                android:layout_below="@+id/Drinks_Card2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="79dp"
+                android:layout_marginRight="90dp"
+                android:padding="20dp"
+                android:elevation="16dp"
+                android:foregroundGravity="center_horizontal"
+                app:cardBackgroundColor="@color/colorAccent"
+                app:cardCornerRadius="16dp">
+
+                <RelativeLayout
+                    android:id="@id/Drinks_imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/Drinks_imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginBottom="20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mineralwater" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="@string/drink_minwater_price"
+                        android:textSize="18sp"
+                        android:layout_marginRight="14dp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="bottom|right"
+                        android:text="$"
+                        android:layout_marginRight="2dp"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/Drinks_Food_title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="112dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/Drinks_food_title3"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Food_text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_below="@+id/Drinks_Food_title3"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/Drinks_food_text3" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
